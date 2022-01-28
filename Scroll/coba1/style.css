@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+} 
+
+.div1, .div2{
+    height: 100vh;
+}
+
+.div1 {
+    background-color: blueviolet;
+}
+
+.div2{
+    background-color: burlywood;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.red {
+    background-color: red;
+}
