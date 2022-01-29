@@ -1,14 +1,15 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".square",{
-    x: 500,
-    duration: 3,
+    x: "70vw",
+    // duration: 3,
     scrollTrigger: {
         trigger : ".square",
-        start : "top 50%",
+        start : "top 80%",
         // end : ()=> `+=${document.querySelector(".square").offsetHeight}`,
-        end : "center 20%",
-        toggleActions: "restart pause resume complete",
+        end : "top 20%",
+        scrub:1,
+        toggleActions: "restart none none none",
         //              play pause reverve restart reset complete none
         //              onEnter onLeave OnEnterBack onLeaveBack
         markers : {
